@@ -1,6 +1,6 @@
-location_of_Network_Training_py="./"
+location_of_NetworkTraining_py="../"
 import sys
-sys.path.append(location_of_Network_training_py)
+sys.path.append(location_of_NetworkTraining_py)
 import torch
 from torch.autograd import Variable
 import torch.backends.cudnn as cudnn
