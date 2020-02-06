@@ -18,7 +18,7 @@ saved_net=torch.load(os.path.join(log_dir,"net_Test_bestF1.pth")) #
 net.load_state_dict(saved_net['state_dict'])
 net.eval();
 
-out_dir="output_best_v2" 
+out_dir="output_best_v1" 
 
 def process_output(o):
     e=np.exp(o[0,1,:,:])
