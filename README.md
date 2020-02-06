@@ -28,8 +28,8 @@ b) the network attaining the highest F1 score on the test set is stored at `<log
 To generate prediction for the test set using a trained network run  
 `python "segmentTestSet.py"`.  
 The name of the file containing the network, and the output directory are defined at the beginning of the script.
-a) The output is saved in the form of png images in `log_v1/output_best_v1/`.
-b) The precision-recall plot is saved in `log_v1/output_best_v1_pr.txt`.
+a) The output is saved in the form of png images in `log_v1/output_best_v1/`. 
+b) The precision-recall plot is saved in `log_v1/output_best_v1_pr.txt`. 
 
 To create the precision-recall plot, run
 `gnuplot plot_precision_recall.gp`
