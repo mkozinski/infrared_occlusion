@@ -9,7 +9,7 @@ Enter the experiment directory
 `cd infrared_occlusion`  
 
 To create dataset split,
-1. From the shell, run ./split_data.sh <location of the data folder>; (if needed run chmod +x split_data.sh first); 
+run ./split_data.sh <location of the data folder>; (if needed run chmod +x split_data.sh first); 
 This generates the files: trainFiles.txt testFiles.txt containing the names of the training and test images
 
 To run training   
@@ -28,8 +28,8 @@ b) the network attaining the highest F1 score on the test set is stored at `<log
 To generate prediction for the test set using a trained network run  
 `python "segmentTestSet.py"`.  
 The name of the file containing the network, and the output directory are defined at the beginning of the script.
-The output is saved in the form of png images in `log_v1/output_best_v1/`.
-The precision-recall plot is saved in `log_v1/output_best_v1_pr.txt`.
+a) The output is saved in the form of png images in `log_v1/output_best_v1/`.
+b) The precision-recall plot is saved in `log_v1/output_best_v1_pr.txt`.
 
 To create the precision-recall plot, run
 `gnuplot plot_precision_recall.gp`
