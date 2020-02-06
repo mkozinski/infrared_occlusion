@@ -9,7 +9,7 @@ Enter the experiment directory
 `cd infrared_occlusion`  
 
 To create dataset split,
-run ./split_data.sh <location of the data folder>; (if needed run chmod +x split_data.sh first); 
+run `./split_data.sh <location of the data folder>`; (if needed run chmod +x split_data.sh first); 
 This generates the files: trainFiles.txt testFiles.txt containing the names of the training and test images
 
 To run training   
